@@ -1,15 +1,15 @@
 import React, {Component} from "react";
 
-class Summary extends Component {
+class Resume extends Component {
   render(){
     return(
       <div>
         <h1>
-          Resume/Summary
+          Resume
         </h1>
       </div>
     )
   }
 }
 
-export default Summary;
+export default Resume;
