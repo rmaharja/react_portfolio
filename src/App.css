@@ -9,9 +9,25 @@
   height:220px;
   padding: 10px
 }
-#banner-header h1 {
+.banner-header {
   background-color: black;
-  color: white;
+  opacity: 0.75;
   width: 75%;
-  font-weight: bold;
+  margin: auto;
+  border-radius: 10px;
 }
+.banner-header h1 {
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 60px;
+}
+.banner-header hr {
+  border: none;
+  border-top: 5px dotted;
+  color:whitesmoke;
+  width: 50%;
+  margin: auto;
+}
+
+
+

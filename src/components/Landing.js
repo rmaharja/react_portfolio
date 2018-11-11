@@ -10,10 +10,14 @@ class Landing extends Component {
           <Cell col={12}>
             <img src="http://res.cloudinary.com/cloudrohit/image/upload/r_30/a_270/v1541513598/plrht0u1u7l2eejmvdxf.png" 
             alt="profile-pic" id="profile-pic"/>
-
-            <label for="profile-pic" id="banner-header">
+            
+            <div className="banner-header">
             <h1>Full Stack Web Developer</h1>
-            </label>
+            <hr></hr>
+
+            <p>ReactJS | Javascript | HTML | CSS | Bootstrap | NodeJS | MongoDB</p>
+            </div>
+
           </Cell>
         </Grid>
       </div>
