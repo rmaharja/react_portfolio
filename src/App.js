@@ -8,10 +8,9 @@ class App extends Component {
     render() {
         return (
             <div className="demo-big-content">
-                <Layout>
-                    <Header title="Rohit's Portfolio" className="header"scroll>
+                <Layout className="main-container">
+                    <Header title={<a href="/">Rohit's Portfolio</a>} className="header" scroll>
                         <Navigation>
-                            <Link to="/">Home</Link>
                             <Link to="/resume">Resume</Link>
                             <Link to="/about">About</Link>
                             <Link to="/projects">Projects</Link>
@@ -20,7 +19,6 @@ class App extends Component {
                     </Header>
                     <Drawer title="Rohit's Portfolio">
                         <Navigation>
-                            <Link to="/">Home</Link>
                             <Link to="/resume">Resume</Link>
                             <Link to="/about">About</Link>
                             <Link to="/projects">Projects</Link>
