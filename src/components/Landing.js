@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Grid, Cell} from "react-mdl";
-import Rohit from "../images/Rohit.jpg";
+import Pic from "../images/CircleRohit.jpg";
 
 class Landing extends Component {
     render() {
@@ -13,7 +13,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                             <img
-                                src="http://res.cloudinary.com/cloudrohit/image/upload/r_30/a_270/v1541513598/plrht0u1u7l2eejmvdxf.png"
+                                src={Pic}
                                 alt="profile-pic"
                                 id="profile-pic"/>
 
