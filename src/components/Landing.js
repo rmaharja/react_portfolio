@@ -28,7 +28,7 @@ class Landing extends Component {
 
                                 {/* Linked In */}
                                 <a
-                                    href="www.linkedin.com/in/rohit-maharjan-0515"
+                                    href="https://www.linkedin.com/in/rohit-maharjan-0515"
                                     target="_blank"
                                     rel="noopener noreferrer">
                                     <img
