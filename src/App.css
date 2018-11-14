@@ -73,7 +73,12 @@ a {
 }
 Tabs{
   position:fixed;
-  
+
+}
+
+#github-tab-image{
+  height: 250px;
+  width: auto;
 }
 
 

@@ -7,7 +7,8 @@ import {
 
 } from "react-mdl";
 import ReactP from "./ReactP";
-import HandlebarsP from "./HandlebarsP";
+import MVCP from "./MVCP";
+import OtherP from "./OtherP";
 
 class Projects extends Component {
     state = {
@@ -24,20 +25,33 @@ class Projects extends Component {
         } else if (this.state.activeTab === 1) {
             return (
                 <div >
-                    <HandlebarsP />
+                    <MVCP />
 ]                </div>
             )
         } else if (this.state.activeTab === 2) {
             return (
-                <div className="MongoDB-projects">
-                    <h1>MongoDB</h1>
+                <div className="other-projects">
+                  <OtherP />
                 </div>
             )
         } else if (this.state.activeTab === 3) {
             return (
-                <div className="api-projects">
-                    <h1>Using API</h1>
-                </div>
+                <div className="github-link">
+                                    <a href="https://github.com/rmaharja?tab=repositories"
+                                    rel="noopener noreferrer"
+                                    target="_blank">
+                                    <img
+                                        className="icon-images"
+                                        id="github-tab-image"
+                                        src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Logo.png"
+                                        alt="linked-in-icon"/>
+                                </a>                
+                                <p>
+                                  <h3>< a href="https://github.com/rmaharja?tab=repositories"
+                                      rel="noopener noreferrer"> Check out the rest of the Repo
+                                      </a></h3>
+                                      </p>
+                                </div>
             )
         }
     }
@@ -51,9 +65,9 @@ class Projects extends Component {
                     onChange={(tabId) => this.setState({activeTab: tabId})}
                     ripple>
                     <Tab>React</Tab>
-                    <Tab>Handlebars</Tab>
-                    <Tab>MongoDB</Tab>
-                    <Tab>API</Tab>
+                    <Tab>MVC</Tab>
+                    <Tab> Cool Projects</Tab>
+                    <Tab>Github</Tab>
                 </Tabs>
                 </div>
 
