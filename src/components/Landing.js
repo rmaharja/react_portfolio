@@ -16,6 +16,7 @@ class Landing extends Component {
                                 src={Pic}
                                 alt="profile-pic"
                                 id="profile-pic"/>
+                                <p id="quote"><i> Chase excellence, and let success follow!</i></p>
 
 
                         <div className="banner-header">
