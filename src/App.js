@@ -19,7 +19,7 @@ class App extends Component {
                             {/* <Link to="/contact">Contact</Link> */}
                         </Navigation>
                     </Header>
-                    <Drawer title="Rohit's Portfolio">
+                    <Drawer title={<a href="/">Rohit Maharjan</a>}>
                         <Navigation>
                             <Link to="/">Home</Link>
                             {/* <Link to="/resume">Resume</Link>

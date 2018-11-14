@@ -2,8 +2,7 @@
   background: #de6161;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  
+    
 }
 .main-container{
   text-align: center;
@@ -14,12 +13,17 @@
   height: 100px;
   
 }
+.header{
+  z-index: 11;
+  position:fixed;
+}
 #quote{
   padding-bottom: 0;
   color: whitesmoke;
   font-size: 25px;
 }
 #profile-pic {
+  padding-top: 50px;
   height:240px;
   opacity: 0.75;
 }
@@ -62,6 +66,14 @@
 a {
   text-decoration:none;
   color: white;
+}
+.project-tabs{
+  margin-top:50px;
+  z-index: 11;
+}
+Tabs{
+  position:fixed;
+  
 }
 
 
