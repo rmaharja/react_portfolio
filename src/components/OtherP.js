@@ -26,7 +26,7 @@ const OtherP = () => (
                 background: 'url(http://www.thehansindia.com/assets/RoadRun_3750.jpg) center / cover'
             }}>Find Your Pace </CardTitle>
             <CardText>
-            Find your Pace (FYP) was built by runners, for runners. FYP is built using HTML, JavaScript, jQuery, and JSON, DarkSky API, and Google Maps Geocoding API.  Find Your Pace adjusts your pace for each run based on the weather at the time of the runs.
+            Find your Pace (FYP) was built by runners, for runners using HTML, JavaScript, jQuery, and JSON, DarkSky API, and Google Maps Geocoding API.  Find Your Pace adjusts your pace for each run based on the weather at the time of the runs.
             </CardText>
             <CardActions border>
                 <a
@@ -93,7 +93,7 @@ const OtherP = () => (
         }}>
             <CardTitle
                 style={{
-                color: 'blue',
+                color: 'white',
                 height: '176px',
                 background: 'url(https://bobowenblog.files.wordpress.com/2014/07/matrix_whoa.jpg) center / cover'
             }}>Fun With Giphy </CardTitle>
