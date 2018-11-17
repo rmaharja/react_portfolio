@@ -8,6 +8,7 @@ import {
     CardText,
     Button
 } from "react-mdl";
+import FreakyPic from "../images/freakyhome.png";
 
 const ReactP = () => (
     <div className="react-projects">
@@ -24,7 +25,7 @@ const ReactP = () => (
                 style={{
                 color: 'whitesmoke',
                 height: '176px',
-                background: 'url(https://freaky-styley-brt2.herokuapp.com/img/LoginImage.png) center / cover'
+                background: `url(${FreakyPic}) center / cover`
             }}>freaky-styley</CardTitle>
             <CardText>
             Machine learning image style transfer project using <i>React, ml5, Passport, and MongoDB. </i>Insert your image, pick a style, and share your new freaky-styled image! 
