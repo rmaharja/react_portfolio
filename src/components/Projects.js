@@ -48,7 +48,7 @@ class Projects extends Component {
                                 </a>                
                                 <p>
                                   <h3>< a href="https://github.com/rmaharja?tab=repositories"
-                                      rel="noopener noreferrer"> Check out the rest of the Repo
+                                      rel="noopener noreferrer"> Check out the rest of the (moderately cool projects) in the Repo
                                       </a></h3>
                                       </p>
                                 </div>
@@ -66,7 +66,7 @@ class Projects extends Component {
                     ripple>
                     <Tab>React</Tab>
                     <Tab>MVC</Tab>
-                    <Tab> Cool Projects</Tab>
+                    <Tab> Really Cool Projects</Tab>
                     <Tab>Github</Tab>
                 </Tabs>
                 </div>

@@ -12,12 +12,16 @@ class Landing extends Component {
             }}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                            <img
-                                src={Pic}
-                                alt="profile-pic"
-                                id="profile-pic"/>
-                                <p id="quote"><i> Chase excellence, and let success follow!</i></p>
-
+                        <img src={Pic} alt="profile-pic" id="profile-pic"/>
+                        <p id="quote">
+                            <small
+                                style={{
+                                fontSize: "0.4em"
+                            }}>**Check out project (freaky-styley) for source image**</small>
+                            <br/>
+                            <i>
+                                Chase excellence, and let success follow!</i>
+                        </p>
 
                         <div className="banner-header">
                             <h1>Full Stack Web Developer</h1>
@@ -37,6 +41,15 @@ class Landing extends Component {
                                         src="https://cdns.iconmonstr.com/wp-content/assets/preview/2012/240/iconmonstr-linkedin-3.png"
                                         alt="linked-in-icon"/>
                                 </a>
+
+                                <a
+                                    href="mailto:rmaharja@gmail.com"
+                                    target="_top"
+                                    style={{
+                                    color: "white",
+                                    fontSize: "1.5em",
+                                    marginTop: "10px"
+                                }}>Email Me</a>
 
                                 {/*GitHub  */}
                                 <a
