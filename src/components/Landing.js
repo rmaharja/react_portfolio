@@ -53,7 +53,7 @@ class Landing extends Component {
 
                                 {/*GitHub  */}
                                 <a
-                                    href="https://github.com/rmaharja?tab=repositories"
+                                    href="https://github.com/rmaharja"
                                     rel="noopener noreferrer"
                                     target="_blank">
                                     <img
